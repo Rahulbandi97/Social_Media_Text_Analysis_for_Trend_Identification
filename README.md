@@ -20,13 +20,13 @@ This project analyzes social media text to identify trends using **Machine Learn
 **Tools:** Google Colab  
 
 ## 📁 Project Structure
-   - **Social_Media_Text_Analysis_for_Trend_Identification/**
-   - **│── Twitter_Analysis/**
-   - **│   ├── SocialMediaTextAnalysisTwitter.ipynb**
-   - **│── Youtube_Analysis/**
-   - **│   ├── SMTAYoutubeBERT.ipynb**
-   - **│   ├── SMTAYoutubeRoBERTAa.ipynb**
-   - **│── README.md**
+**Social_Media_Text_Analysis_for_Trend_Identification/**
+**│── Twitter_Analysis/**
+**│   ├── SocialMediaTextAnalysisTwitter.ipynb**
+**│── Youtube_Analysis/**
+**│   ├── SMTAYoutubeBERT.ipynb**
+**│   ├── SMTAYoutubeRoBERTAa.ipynb**
+**│── README.md**
    
 ## 🚀 Installation & Setup
 
