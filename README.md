@@ -20,36 +20,36 @@ This project analyzes social media text to identify trends using **Machine Learn
 **Tools:** Google Colab  
 
 ## 📁 Project Structure
-   **Social_Media_Text_Analysis_for_Trend_Identification/
-   │── Twitter_Analysis/
-   │   ├── SocialMediaTextAnalysisTwitter.ipynb
-   │── Youtube_Analysis/
-   │   ├── SMTAYoutubeBERT.ipynb
-   │   ├── SMTAYoutubeRoBERTAa.ipynb
-   │── README.md**
+   **Social_Media_Text_Analysis_for_Trend_Identification/**
+   **│── Twitter_Analysis/**
+   **│   ├── SocialMediaTextAnalysisTwitter.ipynb**
+   **│── Youtube_Analysis/**
+   **│   ├── SMTAYoutubeBERT.ipynb**
+   **│   ├── SMTAYoutubeRoBERTAa.ipynb**
+   **│── README.md**
    
-
 ## 🚀 Installation & Setup
-**1. Clone the repository:**
+
+1. Clone the repository:
    ```bash
    git clone <repo_url>
    cd Social_Media_Text_Analysis_for_Trend_Identification
    
-**2. Install dependencies:**
+2. Install dependencies:
    ##### pip install pandas numpy nltk sklearn wordcloud torch transformers tensorflow
 
-**3.Run Jupyter Notebooks using Google Colab or locally:**
+3.Run Jupyter Notebooks using Google Colab or locally:
   ##### jupyter notebook
 
-# 📌 Usage
-## 🐦 Twitter Analysis
+## 📌 Usage
+### 🐦 Twitter Analysis
    ### 📝 Load dataset from GoogleDrive/MyDrive/SocialMediaTrendAnalysisDatasets/BollywoodTweets/tweets1m.csv
    ### ⚡ Perform preprocessing (Tokenization, Stopwords Removal, Stemming)
    ### 🔢 Extract features using TF-IDF
    ### 🤖 Train and evaluate Logistic Regression model
    ### 📊 Generate WordCloud for trend visualization
 
-## 📺 YouTube Analysis
+### 📺 YouTube Analysis
    ### 📝 Load dataset from GoogleDrive/MyDrive/SocialMediaTrendAnalysisDatasets/YoutubeTrends/USvideos.csv
    ### 🔍 Preprocess data: Text Cleaning, Label Assignment (Trending or Not)
    ### 🤖 Train BERT / RoBERTa models for classification
